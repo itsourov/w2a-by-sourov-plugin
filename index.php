@@ -260,14 +260,14 @@ if (is_admin()) {
             'notification' => array(
                 'body' => $message,
                 'title' => $title,
-                'sound' => 'defult',
+                'sound' => 'default',
                 'icon' => '',
                 'image' => $imageLink
             ),
             'data' => array(
                 'message' => $imageLink,
                 'title' => $title,
-                'sound' => 'defult',
+                'sound' => 'default',
                 'postID' => $id,
                 'selfUrl' => $selfUrl,
                 'imageLink' => $imageLink
